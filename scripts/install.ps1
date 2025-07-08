@@ -24,15 +24,13 @@ if (!(Test-CommandInstalled node)) {
     }
 }else{
     Write-Host "已安装nodejs!"
-    Set-Location ..
     Write-Host "开始安装依赖..."
     yarn install --registry=https://registry.npm.taobao.org
     Write-Host "依赖安装完成，启动程序..."
-    
+    npm run start
     Start-Job -ScriptBlock {
         Start-Sleep 4
         Start-Process http://localhost:5173/
     } | Out-Null
-    npm run start
     Set-Location $location
 }
