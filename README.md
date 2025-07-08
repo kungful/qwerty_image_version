@@ -5,4 +5,5 @@ https://github.com/RealKai42/qwerty-learner.git
 
 下载地址: https://github.com/kungful/VocabTypeAI/releases/download/v0.1.2/VocabTypeAI_windows.zip
 
-将下载的压缩包直接解压到 qwerty_image_version 文件夹中即可
+将下载的压缩包直接解压到 qwerty_image_version 文件夹中即可，
+安装配置好文件后点击：启动qwerty学习.bat
