@@ -1,3 +1,4 @@
+<video src="https://github.com/user-attachments/assets/917bc5e7-76ce-4217-a3ea-ff10745c7ed3" controls muted loop style="max-width: 100%; height: auto;">
 首先，请到原项目查看如何安装依赖：
 https://github.com/RealKai42/qwerty-learner.git
 
